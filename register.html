@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Register - Student Academic Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container form-container">
+    <h2 class="form-heading">Register</h2> 
+    
+    <!-- Registration form -->
+    <form action="register.php" method="POST">
+      <label for="username">Roll Number (Username):</label>
+      <input type="text" id="username" name="username" required />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required />
+
+      <button type="submit">Register</button>
+    </form>
+
+    <div class="form-footer">
+      <a href="login.html">Already have an account ?Login here</a>
+    </div>
+  </div>
+</body>
+</html>
